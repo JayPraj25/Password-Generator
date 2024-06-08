@@ -1,7 +1,7 @@
 body {
-    background-color: #333;
+    background-color: rgb(139, 139, 139);
     margin: 0;
-    color: white;
+    color: rgb(42, 130, 255);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -10,10 +10,10 @@ body {
   }
   
   .container {
-    background-color: #006699;
+    background-color: #294043;
     padding: 3rem;
     border-radius: 1rem;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,8 +48,8 @@ body {
   }
   
   .password-display{
-    background-color: white;
-    border: 1px solid #333;
+    background-color: rgb(139, 139, 139);
+    border: 2px solid black;
     display: flex;
     width: 350px;
     height: 2rem;
@@ -71,9 +71,9 @@ body {
 
   .copyBtn{
     width: 10%;
-    background-color: white;
     border: none;
     cursor: pointer;
+    background-color: rgb(139, 139, 139);
   }
 
   .copyBtn img{
@@ -102,8 +102,8 @@ body {
   .btn {
     grid-column: span 2;
     background-color: transparent;
-    border: 2px solid white;
-    color: white;
+    border: 2px solid black;
+    color: rgb(42, 130, 255);
     padding: .5rem 1rem;
     font-weight: bold;
     cursor: pointer;

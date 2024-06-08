@@ -47,7 +47,44 @@ body {
     width: 2rem;
   }
   
-  .password-display {
+  .password-display{
+    background-color: white;
+    border: 1px solid #333;
+    display: flex;
+    width: 350px;
+    height: 2rem;
+    padding: 1rem;
+    padding-right: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    margin: 1.5rem;
+  }
+
+  .passwordArea{
+  color: black;
+  display: flex;
+  width: 90%;
+  word-break: break-all;
+  justify-content: center;
+  }
+
+  .copyBtn{
+    width: 10%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .copyBtn img{
+    /* object-fit: contain; */
+    align-self: center;
+    height: 100%;
+    width: 100%;
+  }
+
+
+/* .password-display {
     background-color: white;
     color: black;
     padding: 1rem;
@@ -59,7 +96,8 @@ body {
     align-items: center;
     word-break: break-all;
     border-radius: .5rem;
-  }
+  } */
+  
   
   .btn {
     grid-column: span 2;

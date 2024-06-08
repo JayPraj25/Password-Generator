@@ -57,3 +57,11 @@ function syncCharacterAmount(e) {
   characterAmountNumber.value = value
   characterAmountRange.value = value
 }
+
+
+copy.addEventListener('click', e => {
+  e.preventDefault()
+  navigator.clipboard.writeText(passwordDisplay.innerText)
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+})
